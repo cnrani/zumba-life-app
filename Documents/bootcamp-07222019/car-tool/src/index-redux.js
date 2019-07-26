@@ -73,9 +73,9 @@ const {add, subtract, multiply, divide, clear } = bindActionCreators({
 
 ReactDOM.render(
     <Provider store={calcStore}>
-        <CalcToolContainer/>
+    <CalcToolContainer/>
     </Provider>,
-    document.querySelector('#root'),
+document.querySelector('#root'),
 
 );
 
