@@ -9,18 +9,35 @@ const DIVIDE_ACTION = 'DIVIDE';
 
 
 
-const calReducer =  (state = 0, action) => {   // current and accumulator . state is immutable and need to reproduce new state every time
+const calReducer =  (state = { result:0 }, action) => {   // current and accumulator . state is immutable and need to reproduce new state every time
     console.log('state: ', state, 'action: ', action);
 
     switch(action.type) {
         case ADD_ACTION:
-            return state + action.payload.value;
+            //return state.result + action.payload.value;  it returns new state which is changing state but not the object which is similar to 'state = { results:0 }'
+            return{
+                ...state, // copies from old state
+                result: state.result + action.payload.value,
+            };
+
         case SUBTRACT_ACTION:
-            return state - action.payload.value;
+            return{
+                ...state, // copies from old state
+                result: state.result - action.payload.value,
+            }
+            //return state - action.payload.value;  // it is just number not the object
         case MULTIPLY_ACTION:
-            return  state * action.payload.value;
+            return{
+                ...state, // copies from old state
+                result: state.result * action.payload.value,
+            }
+            //return  state * action.payload.value;
         case DIVIDE_ACTION:
-            return  state / action.payload.value;
+            return{
+                ...state, // copies from old state
+                result: state.result/ action.payload.value,
+            }
+           // return  state / action.payload.value;
         default:
             return state;
     }
@@ -52,7 +69,7 @@ calcStore.subscribe(() => {
     console.log(calcStore.getState());
 
     ReactDOM.render(
-        <CalcTool result={calcStore.getState()} onAdd={add} onSubtract={subtract} onMultiply={multiply} onDivide={divide}/>,
+        <CalcTool result={calcStore.getState().result} onAdd={add} onSubtract={subtract} onMultiply={multiply} onDivide={divide}/>,
         document.querySelector('#root')
     );
 });
@@ -121,11 +138,7 @@ const CalcTool = ({ result, onAdd, onSubtract, onMultiply, onDivide }) => {
 
 };
 
-
-ReactDOM.render(
-    <CalcTool result={calcStore.getState()} onAdd={add} onSubtract={subtract} onMultiply={multiply} onDivide={divide}/>,
-    document.querySelector('#root')
-);
+add(0);
 
 
 
