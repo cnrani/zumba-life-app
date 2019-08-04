@@ -1,0 +1,15 @@
+Exercise 5
+
+https://gitlab.com/t4d-classes/bootcamp_07222019
+
+1. Update the Profile Header to use both the h1 and image element directly within the component.
+
+2. Using styled components, apply the styling for the image and the h1.
+
+3. Utilize the Profile Header styled component in the profile page.
+
+4. Create a new component which displays a list of the person's interesting things. Hard code the list of things in the component. Using CSS make the text of every even item blue, and every odd item green. Include in the list the picture sized to 30 pixel tall. Use styled components.
+
+5. Replace the table/list of interesting things in the profile with the new list component.
+
+6. Ensure it works.

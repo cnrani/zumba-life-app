@@ -1,0 +1,25 @@
+body {
+  font-size: 100%;
+}
+
+/* [data-custom*='value'] {
+   color: green;
+} */
+
+li:nth-child(2n) {
+  color: red;
+}
+
+p:first-of-type {
+  color: blue;
+}
+
+div + p {
+  text-decoration: underline;
+}
+
+
+
+
+
+

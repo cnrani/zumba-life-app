@@ -1,0 +1,5 @@
+Exercise 8
+
+1. Create a new component named contact form. Move the contact form from the profile to the contact form component, utilize the contact form inside or profile.
+
+2. Ensure it works.

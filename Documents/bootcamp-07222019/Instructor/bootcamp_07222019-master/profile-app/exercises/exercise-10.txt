@@ -1,0 +1,9 @@
+Exercise 10
+
+1. Add a button element with a label of "Add Contact". When the button is clicked take the collected form data and display it in a table. As each new content is "Added", a new row to the table should be added.
+
+Display the table in Contact Form.
+
+1a. Set the styling of the table so that the col headers are bold, and there is a bold line between the headers and the data. Use styled components to do it.
+
+2. Ensure it works.

@@ -1,0 +1,13 @@
+Exercise 4
+
+https://gitlab.com/t4d-classes/bootcamp_07222019
+
+1. Create styled component using a paragraph tag. Utilize the styled component in your profile page.
+
+2. Create a styled component using a label tag. Utilize the styled label component in your profile page.
+
+3. Limit the height of the images in the table to 40px;
+
+4. For the above items, define all components in a new file and import them into index.js.
+
+5. Ensure it works.

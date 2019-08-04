@@ -1,0 +1,19 @@
+Car Tool Quiz
+
+0. Create a new React application in the top level folder you created on Monday.
+
+$ npx create-react-app car-tool
+
+1. Create a component which accepts an prop named "headerText" and displays an element tree with the following structure:
+
+<header>
+  <h1>[Display the Content of Header Text Here]</h1>
+</header>
+
+2. Create a second component which accepts a prop named "cars". The prop "cars" is an array of car objects. Each car should have the following properties: id, make, model, year, color, price. Display a table of cars including column headers. Show a column for each of the six properties.
+
+3. Create a third component which is a form that collects a new car (not including id).
+
+4. Create a Car Tool component which uses the header, table and form components. Wire everything up so a header with "Car Tool" is diplayed. New cars can be entered into the form, and added to the table when the form is "submitted".
+
+5. Ensure it works.

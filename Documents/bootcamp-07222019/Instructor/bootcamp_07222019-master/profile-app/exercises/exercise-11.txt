@@ -1,0 +1,9 @@
+Exercise 11
+
+https://gitlab.com/t4d-classes/bootcamp_07222019
+
+1. Create a component which displays the contact table.
+
+2. Replace the table in the form, with the new contact table component.
+
+3. Ensure it works.

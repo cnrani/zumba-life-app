@@ -1,0 +1,11 @@
+Exercise 3
+
+https://gitlab.com/t4d-classes/bootcamp_07222019
+
+1. Add an image of the person to the web site.
+
+2. Display a table of the three interesting things. For each interesting thing add a picture from Google images.
+
+3. Create a contact form at the bottom of the page. Use at least one of each field type (input, select and textarea).
+
+4. Ensure it all works.

@@ -1,0 +1,12 @@
+Exercise 7
+
+1. Define an object in index.js which contains the following data:
+
+Full Name of the Person you Interviewed
+A URL to the Profile Image File
+Alt Text Value for the Profile Image File
+An array of interesting things, use the array from previous exercises
+
+2. Pass the object as props into Profile.
+
+3. Utilize the information as appropriate through the component tree replace hard coded data with the props data.

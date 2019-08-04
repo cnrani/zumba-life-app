@@ -1,0 +1,14 @@
+Exercise 9
+
+1. Collect the form data for each of your fields. Use the useState hook to capture the data.
+
+First Name - input
+Last name - input
+Phone - input
+Email - input
+State - select (list states)
+Bio - textarea
+
+2. Verify state form object is being updated
+
+3. Ensure it works.

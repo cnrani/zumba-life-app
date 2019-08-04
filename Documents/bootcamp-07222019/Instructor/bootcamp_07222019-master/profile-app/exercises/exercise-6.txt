@@ -1,0 +1,11 @@
+Exercise 6
+
+https://gitlab.com/t4d-classes/bootcamp_07222019
+
+1. In your Interesting Things component store the data for each interesting thing in an object, then construct an array of those objects. Please follow the syntax structure used in the demo.
+
+Ask yourself this question: What properties does my object need in order to capture the information to display the interesting thing in the list?
+
+2. Using the array of interesting thing objects, dynamically generate the list items things in the unordered list.
+
+3. Ensure it works.

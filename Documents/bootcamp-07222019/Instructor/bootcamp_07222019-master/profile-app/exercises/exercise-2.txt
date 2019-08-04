@@ -1,0 +1,14 @@
+Exercise 2
+
+https://gitlab.com/t4d-classes/bootcamp_07222019
+
+1. Update your profile component to use information from the interview to re-populate the paragraph, ordered list and/or unordered list elements.
+
+For example, write one two sentence incorporating the birth, hometown, inspirational quote of the person you intervied.
+
+For example, unordered list could contain the three interesting things...
+
+2. Ensure the page loads correctly in the web browser.
+
+
+
